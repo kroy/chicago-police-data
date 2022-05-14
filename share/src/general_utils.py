@@ -128,7 +128,7 @@ def expand_data(collapsed_df, stored_df, temp_id='TempID'):
         .sort_values('Index')\
         .set_index('Index')\
         .drop(temp_id, axis=1)
-    del full_df.index.name
+    # del full_df.index.name
     return full_df
 
 

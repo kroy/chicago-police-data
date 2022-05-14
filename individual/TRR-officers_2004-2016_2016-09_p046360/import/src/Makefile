@@ -12,8 +12,8 @@ all: \
 
 output/TRR-officers_2004-2016_2016-09.csv.gz: \
 		src/import.py \
-                input/10655-FOIA-P046360-TRRdata_sterilized.xlsx
-	python3 $<
+    input/10655-foia-p046360-trrdata_sterilized.xlsx
+	python $<
 
 
 clean:

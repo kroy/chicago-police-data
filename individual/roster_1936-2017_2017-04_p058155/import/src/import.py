@@ -19,6 +19,7 @@ def get_setup():
         logger is used to write logging messages
     '''
     script_path = __main__.__file__
+    script_path = "src/import.py"
     args = {
         'input_file': 'input/P058155_-_Kiefer.xlsx',
         'output_file': 'output/roster_1936-2017_2017-04.csv.gz',

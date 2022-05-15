@@ -19,6 +19,7 @@ def get_setup():
         logger is used to write logging messages
     '''
     script_path = __main__.__file__
+    script_path = 'src/assign-unique-ids.py'
     args = {
         'input_file': 'input/unit-history__2016-12.csv.gz',
         'output_file': 'output/unit-history__2016-12.csv.gz',

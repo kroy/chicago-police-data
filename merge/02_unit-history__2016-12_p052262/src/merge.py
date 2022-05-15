@@ -19,6 +19,7 @@ def get_setup():
         logger is used to write logging messages
     '''
     script_path = __main__.__file__
+    script_path = 'src/merge.py'
     args = {
         'input_reference_file': 'input/officer-reference.csv.gz',
         'output_reference_file': 'output/officer-reference.csv.gz',
